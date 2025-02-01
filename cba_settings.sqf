@@ -1702,3 +1702,17 @@ force vet_unflipping_vehicle_mass_limit = 100000;
 
 // Vurtual's Vehicles
 force vurtual_base_fording_damage = false;
+
+// RR Immersive Maps
+force RR_mapStuff_enableCompassAnimations = false;
+force RR_mapStuff_enableMapAnimations = false;
+force RR_mapStuff_enableMapInteractions = true;
+
+// Immersive Animations
+force WBK_IA_C = true;
+force WBK_IA_Map = true;
+force WBK_IA_MapTime = true;
+force WBK_IA_RAD = true;
+force WBK_IA_TALK = true;
+force WBK_IA_TP = true;
+force WBK_IA_W = true;
