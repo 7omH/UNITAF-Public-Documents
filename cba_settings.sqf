@@ -766,6 +766,7 @@ force diwako_dui_radar_sqlFirst = true;
 force diwako_dui_radar_syncGroup = false;
 force diwako_dui_radar_vehicleCompassEnabled = false;
 diwako_dui_use_layout_editor = false;
+force diwako_dui_linecompass_Enabled = false; 
 
 // Enhanced Movement Rework
 force emr_main_allowClimbOnStandingUnits = false;
@@ -1713,6 +1714,6 @@ force WBK_IA_C = true;
 force WBK_IA_Map = true;
 force WBK_IA_MapTime = true;
 force WBK_IA_RAD = true;
-force WBK_IA_TALK = true;
+force WBK_IA_TALK = false;
 force WBK_IA_TP = true;
 force WBK_IA_W = true;
