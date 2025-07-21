@@ -1725,8 +1725,8 @@ force RR_mapStuff_enableMapInteractions = true;
 
 // Immersive Animations
 force WBK_IA_C = true;
-force WBK_IA_Map = true;
-force WBK_IA_MapTime = true;
+force WBK_IA_Map = false;
+force WBK_IA_MapTime = false;
 force WBK_IA_RAD = true;
 force WBK_IA_TALK = false;
 force WBK_IA_TP = true;
