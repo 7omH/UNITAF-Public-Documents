@@ -294,6 +294,7 @@ force force ace_medical_statemachine_cardiacArrestBleedoutEnabled = false;
 force force ace_medical_statemachine_cardiacArrestTime = 1200;
 force force ace_medical_statemachine_fatalInjuriesAI = 2;
 force force ace_medical_statemachine_fatalInjuriesPlayer = 2;
+force force ace_medical_useLimbDamage = 0; 
 force force ace_medical_vitals_simulateSpO2 = false;
 
 // ACE Medical Interface
@@ -1099,6 +1100,16 @@ force force kat_misc_tourniquetEffects_NegativeMultiplier = 1;
 force force kat_misc_tourniquetEffects_PositiveMultiplier = 1;
 force force kat_misc_treatmentTimeDetachTourniquet = 4;
 
+// KAT - ADV Medical: Ophthalmology
+force kat_ophthalmology_enable = false;
+force kat_ophthalmology_eyeshield_medic_required = 0;
+force kat_ophthalmology_eyeshield_treatment_time = 2;
+force kat_ophthalmology_eyewash_medic_required = 0;
+force kat_ophthalmology_eyewash_treatment_time = 2;
+force kat_ophthalmology_probability_dust = 5;
+force kat_ophthalmology_probability_dust_heavy = 1;
+force kat_ophthalmology_probability_treatment_dust = 20;
+
 // KAT - ADV Medical: Pharmacy
 force kat_pharma_allowStackScript_EACA = true;
 force kat_pharma_allowStackScript_TXA = true;
@@ -1725,8 +1736,8 @@ force RR_mapStuff_enableMapInteractions = true;
 
 // Immersive Animations
 force WBK_IA_C = true;
-force WBK_IA_Map = true;
-force WBK_IA_MapTime = true;
+force WBK_IA_Map = false;
+force WBK_IA_MapTime = false;
 force WBK_IA_RAD = true;
 force WBK_IA_TALK = false;
 force WBK_IA_TP = true;
