@@ -80,13 +80,13 @@ ace_common_settingProgressBarLocation = 0;
 force ace_common_swayFactor = 1;
 
 // ACE Cook off
-force ace_cookoff_ammoCookoffDuration = 0.5;
+force ace_cookoff_ammoCookoffDuration = 0.25;
 force ace_cookoff_destroyVehicleAfterCookoff = true;
 force ace_cookoff_enable = 1;
 force ace_cookoff_enableAmmobox = true;
 force ace_cookoff_enableAmmoCookoff = true;
 force ace_cookoff_enableFire = false;
-force ace_cookoff_probabilityCoef = 0.5;
+force ace_cookoff_probabilityCoef = 0.2;
 
 // ACE Crew Served Weapons
 force ace_csw_ammoHandling = 2;
