@@ -370,7 +370,7 @@ force force ace_medical_treatment_maxLitterObjects = 100;
 force ace_medical_treatment_medicAdenosine = 0;
 force force ace_medical_treatment_medicEpinephrine = 1;
 force force ace_medical_treatment_medicIV = 2;
-force ace_medical_treatment_medicMorphine = 0;
+force ace_medical_treatment_medicMorphine = 1;
 force force ace_medical_treatment_medicPAK = 2;
 force ace_medical_treatment_medicSplint = 0;
 force force ace_medical_treatment_medicSurgicalKit = 1;
@@ -1742,3 +1742,4 @@ force WBK_IA_RAD = true;
 force WBK_IA_TALK = false;
 force WBK_IA_TP = true;
 force WBK_IA_W = true;
+
