@@ -11,12 +11,12 @@ To enable the setting, remove the "//" (comment marker) at the start of the line
 //force unitaf_tablet_Oops_NVG_Classname = "ACE_NVG_Gen4";
 
 /* Artillery computer */
-force ace_artillerytables_advancedCorrections = false;
-force ace_artillerytables_disableArtilleryComputer = false;
+//force ace_artillerytables_advancedCorrections = false;
+//force ace_artillerytables_disableArtilleryComputer = false;
 
 /* Disable Crew Served Weapons */
-force ace_csw_ammoHandling = 0;
-force ace_csw_defaultAssemblyMode = false;
+//force ace_csw_ammoHandling = 0;
+//force ace_csw_defaultAssemblyMode = false;
 
 /* AI unconsciousness */
 //force ace_medical_statemachine_AIUnconsciousness = true;
