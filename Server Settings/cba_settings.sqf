@@ -43,14 +43,14 @@ force force ace_arsenal_allowSharedLoadouts = false;
 force force ace_arsenal_camInverted = false;
 ace_arsenal_defaultToFavorites = false;
 force force ace_arsenal_enableIdentityTabs = false;
-force force ace_arsenal_enableModIcons = 1;
+force force ace_arsenal_enableModIcons = 2;
 ace_arsenal_EnableRPTLog = false;
 ace_arsenal_favoritesColor = [0.9,0.875,0.6];
 force force ace_arsenal_fontHeight = 6;
 ace_arsenal_loadoutsSaveFace = false;
 ace_arsenal_loadoutsSaveInsignia = true;
 ace_arsenal_loadoutsSaveVoice = false;
-ace_arsenal_showUnavailableItems = 0;
+force force ace_arsenal_showUnavailableItems = 0;
 
 // ACE Artillery
 force ace_artillerytables_advancedCorrections = true; //Allow mission override
@@ -191,8 +191,8 @@ force force ace_interaction_enableAnimActions = true;
 force force ace_interaction_enableGroupRenaming = true;
 force force ace_interaction_enableMagazinePassing = true;
 force force ace_interaction_enableTeamManagement = true;
-ace_interaction_enableThrowablePassing = true;
-ace_interaction_enableWeaponAttachments = true;
+force force ace_interaction_enableThrowablePassing = true;
+force force ace_interaction_enableWeaponAttachments = true;
 force force ace_interaction_interactWithEnemyCrew = 0;
 force force ace_interaction_interactWithTerrainObjects = false;
 force force ace_interaction_remoteTeamManagement = true;
@@ -246,7 +246,7 @@ force force ace_refuel_rate = 1.5;
 force force ace_towing_addRopeToVehicleInventory = true;
 
 // ACE Magazine Repack
-ace_magazinerepack_repackAnimation = true;
+force force ace_magazinerepack_repackAnimation = true;
 force force ace_magazinerepack_repackLoadedMagazines = true;
 force force ace_magazinerepack_timePerAmmo = 1.5;
 force force ace_magazinerepack_timePerBeltLink = 8;
@@ -268,7 +268,7 @@ force force ace_markers_timestampEnabled = true;
 force force ace_markers_timestampFormat = "HH:MM:SS";
 force force ace_markers_timestampHourFormat = 24;
 force force ace_markers_timestampTimezone = 0;
-ace_markers_TimestampUTCMinutesOffset = 0;
+force force ace_markers_TimestampUTCMinutesOffset = 0;
 force force ace_markers_timestampUTCOffset = 0;
 
 // ACE Map Gestures
@@ -286,8 +286,8 @@ force force ace_map_gestures_onlyShowFriendlys = false;
 
 // ACE Map Tools
 force force ace_maptools_drawStraightLines = true;
-ace_maptools_plottingBoardAllowChannelDrawing = 1;
-force force ace_maptools_rotateModifierKey = 1;
+force force ace_maptools_plottingBoardAllowChannelDrawing = 1;
+ace_maptools_rotateModifierKey = 1; //Allow clientside customisation
 
 // ACE Medical
 force force ace_medical_ai_enabledFor = 0;
@@ -553,8 +553,8 @@ force force ace_trenches_smallEnvelopeRemoveDuration = 24;
 // ACE Uncategorized
 force force ace_fastroping_autoAddFRIES = false;
 force force ace_fastroping_requireRopeItems = false;
-ace_flags_enableCarrying = true;
-ace_flags_enablePlacing = true;
+force force ace_flags_enableCarrying = true;
+force force ace_flags_enablePlacing = true;
 force force ace_gunbag_swapGunbagEnabled = true;
 force force ace_hitreactions_minDamageToTrigger = 0.1;
 force force ace_hitreactions_weaponDropChanceArmHitAI = 0;
@@ -655,7 +655,7 @@ ace_wardrobe_enableAction = true;
 force force ace_common_persistentLaserEnabled = true;
 force force ace_reload_displayText = true;
 ace_reload_showCheckAmmoSelf = false;
-ace_reloadlaunchers_displayStatusText = true;
+force force ace_reloadlaunchers_displayStatusText = true;
 ace_weaponselect_displayText = true;
 
 // ACE Weather
@@ -679,7 +679,7 @@ force force ace_zeus_zeusAscension = false;
 force force ace_zeus_zeusBird = false;
 
 // Boxloader
-force boxloader_allrepair_height = 5;
+force force boxloader_allrepair_height = 5;
 force force boxloader_allrepair_load = true;
 force force boxloader_allrepair_push = 10000;
 force force boxloader_allrepair_weight = 10000;
@@ -799,8 +799,8 @@ diwako_dui_dir_size = 1.25;
 diwako_dui_distanceWarning = 3;
 force force diwako_dui_enable_compass = true;
 force force diwako_dui_enable_compass_dir = 1;
-diwako_dui_enable_occlusion = false;
-diwako_dui_enable_occlusion_cone = 360;
+force force diwako_dui_enable_occlusion = false;
+force force diwako_dui_enable_occlusion_cone = 360;
 diwako_dui_hudScaling = 1;
 force force diwako_dui_namelist = true;
 diwako_dui_namelist_bg = 0;
@@ -811,11 +811,11 @@ diwako_dui_namelist_width = 215;
 force force diwako_dui_radar_ace_finger = true;
 force force diwako_dui_radar_ace_medic = true;
 diwako_dui_radar_always_show_unit_numbers = false;
-diwako_dui_radar_compassRangeCrew = 500;
+force force diwako_dui_radar_compassRangeCrew = 500;
 force force diwako_dui_radar_compassRangeLimit = 50;
 diwako_dui_radar_dir_padding = 25;
 diwako_dui_radar_dir_shadow = 2;
-diwako_dui_radar_enable_seat_icons = 2;
+force force diwako_dui_radar_enable_seat_icons = 2;
 force force diwako_dui_radar_group_by_vehicle = true;
 diwako_dui_radar_icon_opacity = 1;
 diwako_dui_radar_icon_opacity_no_player = true;
@@ -824,8 +824,8 @@ diwako_dui_radar_icon_scale_crew = 6;
 force force diwako_dui_radar_leadingZeroes = true;
 diwako_dui_radar_namelist_hideWhenLeader = false;
 diwako_dui_radar_namelist_vertical_spacing = 1;
-diwako_dui_radar_occlusion_fade_in_time = 1;
-diwako_dui_radar_occlusion_fade_time = 10;
+force force diwako_dui_radar_occlusion_fade_in_time = 1;
+force force diwako_dui_radar_occlusion_fade_time = 10;
 force force diwako_dui_radar_pointer_color = [1,0.5,0,1];
 force force diwako_dui_radar_pointer_style = "standard";
 force force diwako_dui_radar_show_cardinal_points = true;
@@ -937,7 +937,7 @@ IMS_HudCoordinate_Y = 0.9;
 IMS_ShowHealthHud = true;
 
 // Improved Melee System (Server Settings)
-force IMS_AddKnifeToUnit = false;
+force force IMS_AddKnifeToUnit = false;
 force force IMS_BayonetDistance = "6";
 force force IMS_BayonetOnAI = false;
 force force IMS_BluntWeapon = false;
@@ -1467,12 +1467,12 @@ force force TFAr_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
 
 // unitaf
-force unitaf_client_BleedOut = false;
-force unitaf_client_FPSUpdate = true;
-force unitaf_client_FPSUpdateInterval = 1;
-force unitaf_common_spawnProtectionEnabled = true;
-force unitaf_headless_HCBalancer = false;
-force unitaf_server_Server_connectionLog = true;
+force force unitaf_client_BleedOut = false;
+unitaf_client_FPSUpdate = true;
+unitaf_client_FPSUpdateInterval = 1;
+force force unitaf_common_spawnProtectionEnabled = true;
+force force unitaf_headless_HCBalancer = false;
+force force unitaf_server_Server_connectionLog = true;
 force unitaf_server_Zeus_addObjects = false;
 force unitaf_server_Zeus_autoZeus = true;
 force unitaf_tablet_Oops_Earplugs = "orbat_range";
@@ -1504,26 +1504,26 @@ force force zhc_dynsim_VehDist = 350;
 // ZHC Settings
 force force zhc_offload_badNames = "'ignore'";
 force force zhc_offload_badTypes = "";
-force zhc_offload_BlacklistAllVehicles = false;
+force force zhc_offload_BlacklistAllVehicles = false;
 force force zhc_offload_CheckDelay = 5;
 force force zhc_offload_CycleDelay = 10;
 force force zhc_offload_debugGuids = "";
 force force zhc_offload_DebugMode = 2;
 force force zhc_offload_EmergencyOffloadDelay = 5;
 force force zhc_offload_Enabled = true;
-force zhc_offload_EnableRebal = true;
+force force zhc_offload_EnableRebal = true;
 force force zhc_offload_EnableZeusHolding = true;
-force zhc_offload_GarrisonTimeout = 30;
+force force zhc_offload_GarrisonTimeout = 30;
 force force zhc_offload_OffloadDelay = 5;
 force force zhc_offload_RebalanceDelay = 3600;
 force force zhc_offload_StartDelay = 30;
-force zhc_offload_StrtMsg = true;
+force force zhc_offload_StrtMsg = true;
 force force zhc_offload_TransferLoadout = 1;
 force force zhc_offload_Verbosity = 2;
 force force zhc_stat_DebugRPT = false;
 force force zhc_stat_DebugRPTForm = 0;
-force zhc_stat_EnableFPSCounter = true;
-force zhc_stat_MapFpsPos = 0;
+force force zhc_stat_EnableFPSCounter = true;
+force force zhc_stat_MapFpsPos = 0;
 force force zhc_stat_RPTFreq = 15;
 
 //CLIENTSIDE OPTIONALS
@@ -1550,9 +1550,8 @@ PDT_ENVG_Blacklist = "";
 PDT_ENVG_Effect = "";
 
 //APPROVED
-
 // AI - CFP
-force cfp_autoEquipNVG = true;
+force force cfp_autoEquipNVG = true;
 
 // Crows Electronic Warfare
 crowsEW_main_zeus_jam_immune = true;
@@ -1581,59 +1580,59 @@ CUP_staticWeapons_allowMovement = false;
 CUP_staticWeapons_allowRotation = false;
 
 // IEDD Notebook
-force iedd_ied_addDefusalKit = false;
-force iedd_ied_addNotebook = false;
-force iedd_ied_defaultColor = "random";
-force iedd_ied_defaultDecals = true;
-force iedd_ied_defaultDirection = false;
-force iedd_ied_defaultDud = 0.05;
-force iedd_ied_defaultFake = 0.15;
-force iedd_ied_defaultRandomTimer = 2;
-force iedd_ied_defaultSize = 5;
-force iedd_ied_defaultTimer = 0;
-force iedd_ied_defaultTimerMax = 240;
-force iedd_ied_defaultTimerMin = 105;
-force iedd_ied_defaultTimerValue = 120;
-force iedd_ied_defaultVariation = 6;
-force iedd_ied_defaultVarX = 0;
-force iedd_ied_failChance = 0.25;
-force iedd_ied_failChanceEOD = 0;
-force iedd_ied_failExploseChance = 0.2;
-force iedd_ied_ignoreWireCutOrder = false;
-force iedd_ied_isBlockedRange = false;
-force iedd_ied_isDefusalKit = true;
-force iedd_ied_isDetectable = true;
-force iedd_ied_isDuds = false;
-force iedd_ied_isEod = true;
-force iedd_ied_maxRange = 10;
-force iedd_ied_minRange = 5;
-force iedd_ied_plrCheck = true;
-force iedd_ied_vehCheck = true;
-force iedd_ied_wireCutTime = 10;
-force iedd_ied_wireCutTimeEOD = 5;
+force force iedd_ied_addDefusalKit = false;
+force force iedd_ied_addNotebook = false;
+force force iedd_ied_defaultColor = "random";
+force force iedd_ied_defaultDecals = true;
+force force iedd_ied_defaultDirection = false;
+force force iedd_ied_defaultDud = 0.05;
+force force iedd_ied_defaultFake = 0.15;
+force force iedd_ied_defaultRandomTimer = 2;
+force force iedd_ied_defaultSize = 5;
+force force iedd_ied_defaultTimer = 0;
+force force iedd_ied_defaultTimerMax = 240;
+force force iedd_ied_defaultTimerMin = 105;
+force force iedd_ied_defaultTimerValue = 120;
+force force iedd_ied_defaultVariation = 6;
+force force iedd_ied_defaultVarX = 0;
+force force iedd_ied_failChance = 0.25;
+force force iedd_ied_failChanceEOD = 0;
+force force iedd_ied_failExploseChance = 0.2;
+force force iedd_ied_ignoreWireCutOrder = false;
+force force iedd_ied_isBlockedRange = false;
+force force iedd_ied_isDefusalKit = true;
+force force iedd_ied_isDetectable = true;
+force force iedd_ied_isDuds = false;
+force force iedd_ied_isEod = true;
+force force iedd_ied_maxRange = 10;
+force force iedd_ied_minRange = 5;
+force force iedd_ied_plrCheck = true;
+force force iedd_ied_vehCheck = true;
+force force iedd_ied_wireCutTime = 10;
+force force iedd_ied_wireCutTimeEOD = 5;
 
 // IEDD Notebook VBIED
-force iedd_vbied_defaultDud = 0.05;
-force iedd_vbied_defaultEngineOn = 0;
-force iedd_vbied_defaultGetIn = 0;
-force iedd_vbied_defaultMoving = 0;
-force iedd_vbied_defaultRandomTimer = 0;
-force iedd_vbied_defaultSize = 2;
-force iedd_vbied_defaultSpeed = 45;
-force iedd_vbied_defaultTimer = 0;
-force iedd_vbied_defaultVariation = 5;
-force iedd_vbied_isDetectable = true;
-force iedd_vbied_maxRange = 10;
-force iedd_vbied_minRange = 5;
-force iedd_vbied_plrCheck = true;
-force iedd_vbied_vehCheck = true;
+force force iedd_vbied_defaultDud = 0.05;
+force force iedd_vbied_defaultEngineOn = 0;
+force force iedd_vbied_defaultGetIn = 0;
+force force iedd_vbied_defaultMoving = 0;
+force force iedd_vbied_defaultRandomTimer = 0;
+force force iedd_vbied_defaultSize = 2;
+force force iedd_vbied_defaultSpeed = 45;
+force force iedd_vbied_defaultTimer = 0;
+force force iedd_vbied_defaultVariation = 5;
+force force iedd_vbied_isDetectable = true;
+force force iedd_vbied_maxRange = 10;
+force force iedd_vbied_minRange = 5;
+force force iedd_vbied_plrCheck = true;
+force force iedd_vbied_vehCheck = true;
 
 // RR Immersive Maps
-force RR_mapStuff_enableCompassAnimations = false;
-force RR_mapStuff_enableMapAnimations = false;
-force RR_mapStuff_enableMapInteractions = true;
+force force RR_mapStuff_enableCompassAnimations = false;
+force force RR_mapStuff_enableMapAnimations = false;
+force force RR_mapStuff_enableMapInteractions = true;
 
 // Vurtual's Vehicles
-force vurtual_base_fording_damage = false;
+force force vurtual_base_fording_damage = false;
 
 
