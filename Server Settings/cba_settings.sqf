@@ -1,3 +1,4 @@
+//CORE
 // ACE Advanced Ballistics
 force ace_advanced_ballistics_ammoTemperatureEnabled = true;
 force ace_advanced_ballistics_barrelLengthInfluenceEnabled = true;
@@ -712,41 +713,6 @@ cba_optics_usePipOptics = true;
 cba_quicktime_qteShorten = false;
 cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
-
-// Crows Electronic Warfare
-crowsEW_main_zeus_jam_immune = true;
-crowsEW_main_zeus_jam_marker_show = true;
-force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F";
-force crowsEW_spectrum_defaultRangesForJammingSignal = "298,299,301,3002,3003,3004,3005,306";
-crowsEW_spectrum_minJamSigStrength = -40;
-crowsEW_spectrum_selfTracking = false;
-crowsEW_spectrum_spectrumAutoline = true;
-crowsEW_spectrum_spectrumAutolineColor1 = 2;
-crowsEW_spectrum_spectrumAutolineColor2 = 7;
-crowsEW_spectrum_spectrumAutolineColor3 = 8;
-crowsEW_spectrum_spectrumAutolineColor4 = 5;
-crowsEW_spectrum_spectrumAutolineLength = 6000;
-crowsEW_spectrum_spectrumAutolineNoise = 0;
-crowsEW_spectrum_spectrumEnable = true;
-crowsEW_spectrum_tfarSideTrack = false;
-crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = false;
-
-// Crows Zeus Additions
-crowsza_pingbox_CBA_Setting_enabled = true;
-crowsza_pingbox_CBA_Setting_fade_duration = 300;
-crowsza_pingbox_CBA_Setting_fade_enabled = true;
-crowsza_pingbox_CBA_Setting_oldLimit = 600;
-crowsza_pingbox_CBA_Setting_Pingbox_Size = 3;
-crowsza_pingbox_CBA_Setting_spamPing_threshold = 60;
-crowsza_zeus_text_CBA_Setting_OnKilledModule_helper = true;
-crowsza_zeus_text_CBA_Setting_OnKilledModule_helper_color = [1,1,1,1];
-crowsza_zeus_text_CBA_Setting_rc_helper = true;
-crowsza_zeus_text_CBA_Setting_rc_helper_color = [1,1,1,1];
-crowsza_zeus_text_CBA_Setting_surrender_helper = true;
-crowsza_zeus_text_CBA_Setting_surrender_helper_color = [1,1,1,1];
-crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
-crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
-crowsza_zeus_text_CBA_Setting_zeusTextLine3 = false;
 
 // DUI - Squad Radar - Indicators
 force diwako_dui_indicators_crew_range_enabled = false;
@@ -1525,96 +1491,6 @@ force vet_unflipping_unit_man_limit = 7;
 force vet_unflipping_unit_mass_limit = 3000;
 force vet_unflipping_vehicle_mass_limit = 100000;
 
-// Zeus Enhanced
-force zen_area_markers_editableMarkers = 0;
-zen_building_markers_enabled = false;
-force zen_camera_adaptiveSpeed = true;
-force zen_camera_defaultSpeedCoef = 1;
-force zen_camera_fastSpeedCoef = 1;
-force zen_camera_followTerrain = true;
-force zen_common_ascensionMessages = false;
-force zen_common_autoAddObjects = true;
-force zen_common_cameraBird = false;
-force zen_common_darkMode = false;
-force zen_common_disableGearAnim = true;
-force zen_common_preferredArsenal = 1;
-force zen_compat_ace_hideModules = true;
-force zen_context_menu_enabled = 2;
-zen_context_menu_overrideWaypoints = false;
-force zen_editor_addGroupIcons = false;
-zen_editor_addModIcons = false;
-force zen_editor_declutterEmptyTree = true;
-force zen_editor_disableLiveSearch = true;
-force zen_editor_moveDisplayToEdge = true;
-force zen_editor_parachuteSounds = false;
-force zen_editor_previews_enabled = true;
-force zen_editor_randomizeCopyPaste = false;
-force zen_editor_removeWatermark = true;
-force zen_editor_unitRadioMessages = 2;
-force zen_placement_enabled = true;
-zen_remote_control_cameraExitPosition = 2;
-force zen_visibility_enabled = 1;
-zen_visibility_maxDistance = 5000;
-zen_vision_enableBlackHot = false;
-zen_vision_enableBlackHotGreenCold = false;
-zen_vision_enableBlackHotRedCold = false;
-zen_vision_enableGreenHotCold = false;
-zen_vision_enableNVG = true;
-zen_vision_enableRedGreenThermal = false;
-zen_vision_enableRedHotCold = false;
-zen_vision_enableWhiteHot = true;
-zen_vision_enableWhiteHotRedCold = false;
-
-// Zeus Enhanced - Attributes
-zen_attributes_enableAbilities = true;
-zen_attributes_enableAmmo = true;
-zen_attributes_enableAmmoCargo = true;
-zen_attributes_enableArsenal = true;
-zen_attributes_enableBuildingMarker = true;
-zen_attributes_enableDamage = true;
-zen_attributes_enableEngine = true;
-zen_attributes_enableExecute = true;
-zen_attributes_enableFuel = true;
-zen_attributes_enableFuelCargo = true;
-zen_attributes_enableGarage = true;
-zen_attributes_enableGroupBehaviour = true;
-zen_attributes_enableGroupCombatMode = true;
-zen_attributes_enableGroupExecute = true;
-zen_attributes_enableGroupFormation = true;
-zen_attributes_enableGroupID = true;
-zen_attributes_enableGroupSide = true;
-zen_attributes_enableGroupSkill = true;
-zen_attributes_enableGroupSpeed = true;
-zen_attributes_enableGroupStance = true;
-zen_attributes_enableHealth = true;
-zen_attributes_enableInventory = true;
-zen_attributes_enableLights = true;
-zen_attributes_enableMarkerAlpha = true;
-zen_attributes_enableMarkerColor = true;
-zen_attributes_enableMarkerText = true;
-zen_attributes_enableName = true;
-zen_attributes_enablePlateNumber = true;
-zen_attributes_enableRank = true;
-zen_attributes_enableRepairCargo = true;
-zen_attributes_enableRespawnPosition = true;
-zen_attributes_enableRespawnVehicle = true;
-zen_attributes_enableSensors = true;
-zen_attributes_enableSkill = true;
-zen_attributes_enableSkills = true;
-zen_attributes_enableStance = true;
-zen_attributes_enableStates = true;
-zen_attributes_enableTraits = true;
-zen_attributes_enableVehicleLock = true;
-zen_attributes_enableWaypointBehaviour = true;
-zen_attributes_enableWaypointCombatMode = true;
-zen_attributes_enableWaypointFormation = true;
-zen_attributes_enableWaypointLoiterAltitude = true;
-zen_attributes_enableWaypointLoiterDirection = true;
-zen_attributes_enableWaypointLoiterRadius = true;
-zen_attributes_enableWaypointSpeed = true;
-zen_attributes_enableWaypointTimeout = true;
-zen_attributes_enableWaypointType = true;
-
 // ZHC Caching
 force force zhc_dynsim_CycleDelay = 30;
 force force zhc_dynsim_EmptyDist = 250;
@@ -1649,3 +1525,115 @@ force force zhc_stat_DebugRPTForm = 0;
 force zhc_stat_EnableFPSCounter = true;
 force zhc_stat_MapFpsPos = 0;
 force force zhc_stat_RPTFreq = 15;
+
+//CLIENTSIDE OPTIONALS
+// Crows Zeus Additions
+crowsza_pingbox_CBA_Setting_enabled = true;
+crowsza_pingbox_CBA_Setting_fade_duration = 300;
+crowsza_pingbox_CBA_Setting_fade_enabled = true;
+crowsza_pingbox_CBA_Setting_oldLimit = 600;
+crowsza_pingbox_CBA_Setting_Pingbox_Size = 3;
+crowsza_pingbox_CBA_Setting_spamPing_threshold = 60;
+crowsza_zeus_text_CBA_Setting_OnKilledModule_helper = true;
+crowsza_zeus_text_CBA_Setting_OnKilledModule_helper_color = [1,1,1,1];
+crowsza_zeus_text_CBA_Setting_rc_helper = true;
+crowsza_zeus_text_CBA_Setting_rc_helper_color = [1,1,1,1];
+crowsza_zeus_text_CBA_Setting_surrender_helper = true;
+crowsza_zeus_text_CBA_Setting_surrender_helper_color = [1,1,1,1];
+crowsza_zeus_text_CBA_Setting_zeusTextLine1 = true;
+crowsza_zeus_text_CBA_Setting_zeusTextLine2 = true;
+crowsza_zeus_text_CBA_Setting_zeusTextLine3 = false;
+
+// Fawks' Enhanced NVGs
+PDT_ENVG_ACE = false;
+PDT_ENVG_Blacklist = "";
+PDT_ENVG_Effect = "";
+
+//APPROVED
+
+// AI - CFP
+force cfp_autoEquipNVG = true;
+
+// Crows Electronic Warfare
+crowsEW_main_zeus_jam_immune = true;
+crowsEW_main_zeus_jam_marker_show = true;
+force crowsEW_spectrum_defaultClassForJammingSignal = "UGV_01_base_F,UGV_02_Base_F,UAV_01_base_F,UAV_02_base_F,UAV_03_base_F,UAV_04_base_F,UAV_05_Base_F,UAV_06_base_F";
+force crowsEW_spectrum_defaultRangesForJammingSignal = "298,299,301,3002,3003,3004,3005,306";
+crowsEW_spectrum_minJamSigStrength = -40;
+crowsEW_spectrum_selfTracking = false;
+crowsEW_spectrum_spectrumAutoline = true;
+crowsEW_spectrum_spectrumAutolineColor1 = 2;
+crowsEW_spectrum_spectrumAutolineColor2 = 7;
+crowsEW_spectrum_spectrumAutolineColor3 = 8;
+crowsEW_spectrum_spectrumAutolineColor4 = 5;
+crowsEW_spectrum_spectrumAutolineLength = 6000;
+crowsEW_spectrum_spectrumAutolineNoise = 0;
+crowsEW_spectrum_spectrumEnable = true;
+crowsEW_spectrum_tfarSideTrack = false;
+crowsEW_spectrum_UAVterminalUserVisibleInSpectrum = false;
+
+// CUP
+CUP_CheckCfgPatches = false;
+CUP_Vehicles_PreventBarrelClip = true;
+
+// CUP Static Weapons
+CUP_staticWeapons_allowMovement = false;
+CUP_staticWeapons_allowRotation = false;
+
+// IEDD Notebook
+force iedd_ied_addDefusalKit = false;
+force iedd_ied_addNotebook = false;
+force iedd_ied_defaultColor = "random";
+force iedd_ied_defaultDecals = true;
+force iedd_ied_defaultDirection = false;
+force iedd_ied_defaultDud = 0.05;
+force iedd_ied_defaultFake = 0.15;
+force iedd_ied_defaultRandomTimer = 2;
+force iedd_ied_defaultSize = 5;
+force iedd_ied_defaultTimer = 0;
+force iedd_ied_defaultTimerMax = 240;
+force iedd_ied_defaultTimerMin = 105;
+force iedd_ied_defaultTimerValue = 120;
+force iedd_ied_defaultVariation = 6;
+force iedd_ied_defaultVarX = 0;
+force iedd_ied_failChance = 0.25;
+force iedd_ied_failChanceEOD = 0;
+force iedd_ied_failExploseChance = 0.2;
+force iedd_ied_ignoreWireCutOrder = false;
+force iedd_ied_isBlockedRange = false;
+force iedd_ied_isDefusalKit = true;
+force iedd_ied_isDetectable = true;
+force iedd_ied_isDuds = false;
+force iedd_ied_isEod = true;
+force iedd_ied_maxRange = 10;
+force iedd_ied_minRange = 5;
+force iedd_ied_plrCheck = true;
+force iedd_ied_vehCheck = true;
+force iedd_ied_wireCutTime = 10;
+force iedd_ied_wireCutTimeEOD = 5;
+
+// IEDD Notebook VBIED
+force iedd_vbied_defaultDud = 0.05;
+force iedd_vbied_defaultEngineOn = 0;
+force iedd_vbied_defaultGetIn = 0;
+force iedd_vbied_defaultMoving = 0;
+force iedd_vbied_defaultRandomTimer = 0;
+force iedd_vbied_defaultSize = 2;
+force iedd_vbied_defaultSpeed = 45;
+force iedd_vbied_defaultTimer = 0;
+force iedd_vbied_defaultVariation = 5;
+force iedd_vbied_isDetectable = true;
+force iedd_vbied_maxRange = 10;
+force iedd_vbied_minRange = 5;
+force iedd_vbied_plrCheck = true;
+force iedd_vbied_vehCheck = true;
+
+// RR Immersive Maps
+force RR_mapStuff_enableCompassAnimations = false;
+force RR_mapStuff_enableMapAnimations = false;
+force RR_mapStuff_enableMapInteractions = true;
+
+// Vurtual's Vehicles
+force vurtual_base_fording_damage = false;
+
+
