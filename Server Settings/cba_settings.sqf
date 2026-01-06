@@ -1491,6 +1491,46 @@ force force vet_unflipping_unit_man_limit = 7;
 force force vet_unflipping_unit_mass_limit = 3000;
 force force vet_unflipping_vehicle_mass_limit = 100000;
 
+// Zeus Enhanced
+force force zen_area_markers_editableMarkers = 0;
+zen_building_markers_enabled = false;
+force force zen_camera_adaptiveSpeed = true;
+force force zen_camera_defaultSpeedCoef = 1;
+force force zen_camera_fastSpeedCoef = 1;
+force force zen_camera_followTerrain = true;
+force force zen_common_ascensionMessages = false;
+force force zen_common_autoAddObjects = true;
+force force zen_common_cameraBird = false;
+force force zen_common_darkMode = false;
+force force zen_common_disableGearAnim = true;
+force force zen_common_preferredArsenal = 1;
+force force zen_compat_ace_hideModules = true;
+force force zen_context_menu_enabled = 2;
+zen_context_menu_overrideWaypoints = false;
+force force zen_editor_addGroupIcons = false;
+zen_editor_addModIcons = false;
+force force zen_editor_declutterEmptyTree = true;
+force force zen_editor_disableLiveSearch = true;
+force force zen_editor_moveDisplayToEdge = true;
+force force zen_editor_parachuteSounds = false;
+force force zen_editor_previews_enabled = true;
+force force zen_editor_randomizeCopyPaste = false;
+force force zen_editor_removeWatermark = true;
+force force zen_editor_unitRadioMessages = 2;
+force force zen_placement_enabled = true;
+zen_remote_control_cameraExitPosition = 2;
+force force zen_visibility_enabled = 1;
+zen_visibility_maxDistance = 5000;
+zen_vision_enableBlackHot = false;
+zen_vision_enableBlackHotGreenCold = false;
+zen_vision_enableBlackHotRedCold = false;
+zen_vision_enableGreenHotCold = false;
+zen_vision_enableNVG = true;
+zen_vision_enableRedGreenThermal = false;
+zen_vision_enableRedHotCold = false;
+zen_vision_enableWhiteHot = true;
+zen_vision_enableWhiteHotRedCold = false;
+
 // ZHC Caching
 force force zhc_dynsim_CycleDelay = 30;
 force force zhc_dynsim_EmptyDist = 250;
