@@ -1589,6 +1589,49 @@ PDT_ENVG_ACE = false;
 PDT_ENVG_Blacklist = "";
 PDT_ENVG_Effect = "";
 
+// Turret Enhanced
+force force Fat_Lurch_Grid = true;
+force force Fat_Lurch_GridNum = 6;
+force force Fat_Lurch_MapSlew = true;
+force force Fat_Lurch_Markers = true;
+force force Fat_Lurch_Measure = true;
+Fat_Lurch_ShowAz = true;
+Fat_Lurch_ShowEl = true;
+Fat_Lurch_ShowNorth = true;
+Fat_Lurch_ShowTarget = true;
+Marbit_MarkerBHColor = "ColorBlack";
+force force Marbit_MarkerBHEnabler = true;
+Marbit_MarkerFourColor = "ColorGreen";
+Marbit_MarkerFourEnabler = true;
+Marbit_MarkerFourIcon = "hd_dot";
+Marbit_MarkerFourLabel = "";
+Marbit_MarkerFourLabelPost = " ";
+force force Marbit_MarkerFourLabelPostCustom = false;
+Marbit_MarkerOneColor = "ColorRed";
+Marbit_MarkerOneEnabler = true;
+force force Marbit_MarkerOneIcon = "hd_dot";
+Marbit_MarkerOneLabel = "HM";
+Marbit_MarkerOneLabelPost = " ";
+Marbit_MarkerOneLabelPostCustom = false;
+Marbit_MarkerThreeColor = "ColorBlack";
+Marbit_MarkerThreeEnabler = true;
+force force Marbit_MarkerThreeIcon = "hd_dot";
+Marbit_MarkerThreeLabel = "";
+Marbit_MarkerThreeLabelPost = " ";
+Marbit_MarkerThreeLabelPostCustom = false;
+Marbit_MarkerTwoColor = "ColorBlue";
+Marbit_MarkerTwoEnabler = true;
+force force Marbit_MarkerTwoIcon = "hd_dot";
+Marbit_MarkerTwoLabel = "FM";
+Marbit_MarkerTwoLabelPost = " ";
+Marbit_MarkerTwoLabelPostCustom = false;
+Marbit_MarkerZeroColor = "ColorOrange";
+Marbit_MarkerZeroEnabler = true;
+force force Marbit_MarkerZeroIcon = "hd_dot";
+Marbit_MarkerZeroLabel = "HM";
+Marbit_MarkerZeroLabelPost = "";
+force force Marbit_sideMarkerCounterPre = 1;
+
 //APPROVED
 // AI - CFP
 force force cfp_autoEquipNVG = true;
@@ -1618,6 +1661,9 @@ CUP_Vehicles_PreventBarrelClip = true;
 // CUP Static Weapons
 CUP_staticWeapons_allowMovement = false;
 CUP_staticWeapons_allowRotation = false;
+
+// ETR Transfer Content
+force force etr_transfer_transfer_timeFactor = 0.6;
 
 // IEDD Notebook
 force force iedd_ied_addDefusalKit = false;
