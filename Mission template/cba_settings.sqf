@@ -10,6 +10,10 @@ To enable the setting, remove the "//" (comment marker) at the start of the line
 //force unitaf_tablet_Oops_NVG = "orbat_range";
 //force unitaf_tablet_Oops_NVG_Classname = "ACE_NVG_Gen4";
 
+/* Disable Radio access through UNITAB */
+//force unitaf_tablet_Oops_Radio = "disabled";
+//force unitaf_tablet_Oops_Radio_Classname = "TFAR_anprc152";
+
 /* Artillery computer */
 //force ace_artillerytables_advancedCorrections = false;
 //force ace_artillerytables_disableArtilleryComputer = false;
@@ -24,3 +28,6 @@ To enable the setting, remove the "//" (comment marker) at the start of the line
 //force ace_medical_statemachine_AIUnconsciousness = true;
 //force kat_vitals_enableSimpleMedical = false;
 //force ace_medical_AIDamageThreshold = 3;
+
+/* Disable or reduce safe zone (also impacs tablet for OOPS) */
+//force unitaf_tablet_ORBAT_Range = 2;
