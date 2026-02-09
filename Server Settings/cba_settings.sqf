@@ -715,7 +715,7 @@ cba_ui_notifyLifetime = 4;
 cba_ui_StorePasswords = 1;
 
 // DUI - Squad Radar - Indicators
-force diwako_dui_indicators_crew_range_enabled = false;
+force force diwako_dui_indicators_crew_range_enabled = false;
 diwako_dui_indicators_fov_scale = false;
 force force diwako_dui_indicators_icon_buddy = true;
 force force diwako_dui_indicators_icon_leader = true;
@@ -839,7 +839,7 @@ force force diwako_dui_radar_vehicleCompassEnabled = false;
 diwako_dui_use_layout_editor = false;
 
 // Enhanced Movement Rework
-force emr_main_allowClimbOnStandingUnits = false;
+force force emr_main_allowClimbOnStandingUnits = false;
 force force emr_main_allowMidairClimbing = true;
 force force emr_main_animSpeedCoef = 1;
 force force emr_main_animSpeedStaminaCoef = 0.4;
@@ -879,7 +879,7 @@ force force fish_camo_cream_common_require_kit_for_removal = true;
 fish_camo_cream_mirror_showMirrorOnApplication = false;
 
 // GRAD Trenches
-force grad_trenches_functions_allowBigEnvelope = true;
+force force grad_trenches_functions_allowBigEnvelope = true;
 force force grad_trenches_functions_allowCamouflage = true;
 force force grad_trenches_functions_allowDigging = true;
 force force grad_trenches_functions_allowEffects = true;
@@ -1395,7 +1395,7 @@ force force NMAB_setting_pfxHelicopters = false;
 force force NMAB_setting_pfxPlanes = false;
 
 // TFAR - Clientside settings
-force TFAR_curatorCamEars = true;
+force force TFAR_curatorCamEars = true;
 TFAR_default_radioVolume = 6;
 TFAR_intercomDucking = 0.2;
 TFAR_intercomVolume = 0.1;
@@ -1414,7 +1414,7 @@ TFAR_VolumeHudTransparency = 0;
 TFAR_volumeModifier_forceSpeech = false;
 
 // TFAR - Global settings
-force TFAR_AICanHearPlayer = true;
+force force TFAR_AICanHearPlayer = true;
 force force TFAR_AICanHearSpeaker = true;
 force force TFAR_allowDebugging = false;
 tfar_core_noTSNotConnectedHint = false;
