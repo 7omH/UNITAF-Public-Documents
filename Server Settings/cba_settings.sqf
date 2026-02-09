@@ -55,10 +55,10 @@ force force ace_arsenal_showUnavailableItems = 0;
 // ACE Artillery
 force ace_artillerytables_advancedCorrections = true; //Allow mission override
 force ace_artillerytables_disableArtilleryComputer = true; //Allow mission override
-force force ace_mk6mortar_airResistanceEnabled = true;
+force ace_mk6mortar_airResistanceEnabled = true; //Allow mission override
 force force ace_mk6mortar_allowCompass = true;
 force force ace_mk6mortar_allowComputerRangefinder = true;
-force force ace_mk6mortar_useAmmoHandling = false;
+force ace_mk6mortar_useAmmoHandling = true; //Allow mission override
 
 // ACE Captives
 force force ace_captives_allowHandcuffOwnSide = true;

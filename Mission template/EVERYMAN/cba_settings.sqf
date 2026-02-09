@@ -13,6 +13,8 @@ To enable the setting, remove the "//" (comment marker) at the start of the line
 /* Artillery computer */
 //force ace_artillerytables_advancedCorrections = false;
 //force ace_artillerytables_disableArtilleryComputer = false;
+//force ace_mk6mortar_airResistanceEnabled = false;
+//force ace_mk6mortar_useAmmoHandling = false;	
 
 /* Disable Crew Served Weapons */
 //force ace_csw_ammoHandling = 0;
