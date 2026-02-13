@@ -12,9 +12,7 @@ To enable the setting, remove the "//" (comment marker) at the start of the line
 //force unitaf_tablet_Oops_NVG_Classname = "CUP_NVG_PVS15_Green";
 
 /* Enable Artillery Computer */
-//force ace_artillerytables_advancedCorrections = false;
 //force ace_artillerytables_disableArtilleryComputer = false;
-//force ace_mk6mortar_airResistanceEnabled = false;
 //force ace_mk6mortar_useAmmoHandling = false;	
 
 /* Disable Crew Served Weapons */

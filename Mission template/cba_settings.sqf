@@ -16,9 +16,7 @@ To enable the setting, remove the "//" (comment marker) at the start of the line
 //force unitaf_tablet_Oops_Radio_Classname = "TFAR_anprc152";
 
 /* Enable Artillery Computer */
-//force ace_artillerytables_advancedCorrections = false;
 //force ace_artillerytables_disableArtilleryComputer = false;
-//force ace_mk6mortar_airResistanceEnabled = false;
 //force ace_mk6mortar_useAmmoHandling = false;
 
 /* Disable Crew Served Weapons */
