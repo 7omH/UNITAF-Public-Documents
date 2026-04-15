@@ -1461,8 +1461,8 @@ force force TFAR_setting_externalIntercomWirelessHeadgear = "";
 force force TFAR_spectatorCanHearEnemyUnits = true;
 force force TFAR_spectatorCanHearFriendlies = true;
 force force TFAR_takingRadio = 0;
-force force TFAR_Teamspeak_Channel_Name = "OPS1 - In Operation (TFAR)";
-force force TFAR_Teamspeak_Channel_Password = "TFAR";
+force TFAR_Teamspeak_Channel_Name = "OPS1 - In Operation (TFAR)";
+force TFAR_Teamspeak_Channel_Password = "TFAR";
 force force TFAr_terrain_interception_coefficient = 7;
 force force TFAR_voiceCone = true;
 
