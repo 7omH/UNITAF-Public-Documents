@@ -1281,32 +1281,32 @@ force force kat_pharma_weapon_sway_pervitin = true;
 
 // KAT - ADV Medical: Surgery
 force force kat_surgery_closedLocation = 0;
-force force kat_surgery_closedReduction_MedLevel = 0;
+force force kat_surgery_closedReduction_MedLevel = 1;
 force force kat_surgery_closedReductionFailChance = 10;
-force force kat_surgery_closedTime = 10;
-force force kat_surgery_compoundChance = 30;
-force force kat_surgery_enable_fracture = false;
+force force kat_surgery_closedTime = 15;
+force force kat_surgery_compoundChance = 0;
+force force kat_surgery_enable_fracture = true;
 force force kat_surgery_enable_selfCheckFracture = 1;
-force force kat_surgery_fractureCheck_MedLevel = 0;
-force force kat_surgery_fractureCheck_Time = 10;
-force force kat_surgery_incisionTime = 10;
-force force kat_surgery_intermediateTime = 8;
+force force kat_surgery_fractureCheck_MedLevel = 1;
+force force kat_surgery_fractureCheck_Time = 5;
+force force kat_surgery_incisionTime = 5;
+force force kat_surgery_intermediateTime = 5;
 force force kat_surgery_npwt_MedLevel = 2;
-force force kat_surgery_npwtLocation = 3;
+force force kat_surgery_npwtLocation = 0;
 force force kat_surgery_npwtTime = 20;
 force force kat_surgery_openTime = 15;
+force force kat_surgery_pericardialtapLocation = 0;
 force force kat_surgery_pericardialtap_MedLevel = 2;
-force force kat_surgery_pericardialtapLocation = 3;
 force force kat_surgery_pericardialtapTime = 8;
 force force kat_surgery_reboa_MedLevel = 2;
-force force kat_surgery_reboaLocation = 3;
+force force kat_surgery_reboaLocation = 0;
 force force kat_surgery_reboaTime = 8;
-force force kat_surgery_simpleChance = 15;
-force force kat_surgery_Surgery_ConsciousnessRequirement = 1;
-force force kat_surgery_surgicalAction_MedLevel = 0;
+force force kat_surgery_simpleChance = 60;
+force force kat_surgery_Surgery_ConsciousnessRequirement = 2;
+force force kat_surgery_surgicalAction_MedLevel = 2;
 force force kat_surgery_surgicalLocation = 0;
 force force kat_surgery_ultrasound_MedLevel = 2;
-force force kat_surgery_ultrasoundLocation = 3;
+force force kat_surgery_ultrasoundLocation = 0;
 force force kat_surgery_ultrasoundTime = 8;
 
 // KAT - ADV Medical: Vitals
